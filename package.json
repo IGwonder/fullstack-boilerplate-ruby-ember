@@ -12,5 +12,9 @@
   },
   "devDependencies": {
     "cypress": "^9.7.0"
+  },
+  "dependencies": {
+    "bundle": "^2.1.0",
+    "bundler": "^0.8.0"
   }
 }
