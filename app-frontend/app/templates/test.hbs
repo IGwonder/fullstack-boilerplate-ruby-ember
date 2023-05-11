@@ -1,9 +1,6 @@
 {{page-title "Test"}}
-<h2>List of Transactions</h2>
-
-<ul>
-  {{#each @model as |test|}}
-    <li>{{test}}</li>
-  {{/each}}
-</ul>
+<PeopleList
+  @title="List of Scientists"
+  @people={{@model}}
+/>
 {{outlet}}
